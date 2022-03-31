@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: #e5e5e5;
+}
+* {
+    box-sizing: border-box;
+}
+.main {
+
+}
+.header-fixo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+   
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #cf2b2b;
+    width: 414px;
+    height: 92px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+h1 {
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.012em;
+    
+    margin-left: 21px;
+
+    color: #FFFFFF;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    margin-left: 21px;
+
+
+    color: #FFFFFF;
+}
+h3 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+
+    color: #333333;
+
+    margin: 10px 50px 16px 50px;
+}
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #333333;
+
+}
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+
+    
+    color: #A6A6A6;
+}
+h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #000000;
+}
+.container > :first-child {
+    margin-top: 104px;
+}
+.opcoes {
+    display: flex;
+    overflow-x: scroll;
+}
+.pick {
+    width: 172px;
+    height: 216px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-left: 16px;
+    padding-left: 12px;
+}
+.pick > img {
+    border-radius: 4px;
+    width: 144px;
+    height: 87px;
+    object-fit: cover;
+}
+.footer-fixo {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.footer {
+    width: 414px;
+    height: 92px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 364px;
+    height: 61px;
+
+
+    background: #CBCBCB;
+
+    border-radius: 50px;
+}
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.categoria {
+    margin-bottom: 24px;
+}
