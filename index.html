@@ -17,114 +17,135 @@
             </div>
         </div>
         <div class="container">
-            <div class="categoria">
+            <div class="comida">
                 <h3>Primeiro, seu prato</h3>
                 <div class="opcoes">
-                    <div class="pick">
+                    <div class="pick" onclick="toggleComida(this)">
                         <img src="images/frango.png" alt="frango">
                         <h4>Frango Yin Yang</h4>
                         <h5>Um pouco de batata, um pouco de salada</h5>
                         <h6>R$ 14,90</h6>
+                        <div class="icone escondido" onclick="toggleCheckmark(this)">
+                        <ion-icon name="checkmark-circle-outline"></ion-icon>
                     </div>
-                    <div class="pick">
+                    </div>
+                    <div class="pick" onclick="toggleComida(this)">
                         <img src="images/macarronada.jpg" alt="macarronada">
                         <h4>Macarronada</h4>
                         <h5>Frango tá com nada, vem de macarronada</h5>
                         <h6>R$ 16,90</h6>
-                    </div>
-                    <div class="pick">
+                        <div class="icone escondido" onclick="toggleCheckmark(this)">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                    </div>
+                    <div class="pick" onclick="toggleComida(this)">
                         <img src="images/strogonoff.jpg" alt="strogonoff">
                         <h4>Strong on off</h4>
                         <h5>Switch</h5>
                         <h6>R$ 15,90</h6>
-                    </div>
-                    <div class="pick">
+                        <div class="icone escondido" onclick="toggleCheckmark(this)">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                    </div>
+                    <div class="pick" onclick="toggleComida(this)">
                         <img src="images/lasanha.jpg" alt="lasanha">
                         <h4>Lasanha</h4>
                         <h5>Simplesmente lasanha</h5>
                         <h6>R$ 13,90</h6>
-                    </div>
-                    <div class="pick">
+                        <div class="icone escondido" onclick="toggleCheckmark(this)">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                    </div>
+                    <div class="pick" onclick="toggleComida(this)">
                         <img src="images/quiche.jpg" alt="quiche">
                         <h4>Quichic</h4>
                         <h5>Quiche de alho poró</h5>
                         <h6>R$ 15,00</h6>
-                    </div>
+                        <div class="icone escondido" onclick="toggleCheckmark(this)">
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>
+                        </div>                    </div>
 
 
                     
                 </div>
             </div>
-            <div class="categoria">
+            <div class="bebida">
                 <h3>Agora, sua bebida</h3>
                 <div class="opcoes">
-                    <div class="pick">
+                    <div class="pick" onclick="toggleBebida(this)">
                         <img src="images/coca.png" alt="coca.png">
                         <h4>Coquinha gelada</h4>
                         <h5>Lata 350ml</h5>
                         <h6>R$ 4,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleBebida(this)">
                         <img src="images/fanta.jpg" alt="fanta laranja">
                         <h4>Fanta laranja</h4>
                         <h5>Melhor que a marca com S</h5>
                         <h6>R$ 4,50</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleBebida(this)">
                         <img src="images/guarana.jpg" alt="guarana">
                         <h4>Guaranazin</h4>
                         <h5>Be not afraid</h5>
                         <h6>R$ 3,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleBebida(this)">
                         <img src="images/suco.png" alt="suco">
                         <h4>Suquinho</h4>
                         <h5>Lata 290ml</h5>
                         <h6>R$ 3,50</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleBebida(this)">
                         <img src="images/matte.jpg" alt="matte">
                         <h4>Matte imposto</h4>
                         <h5>Copo 300ml - limão</h5>
                         <h6>R$ 4,50</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
 
 
                     
                 </div>
             </div>
-            <div class="categoria">
+            <div class="sobremesa">
                 <h3>Por fim, sua sobremesa</h3>
                 <div class="opcoes">
-                    <div class="pick">
+                    <div class="pick" onclick="toggleSobremesa(this)">
                         <img src="images/pudim.png" alt="pudim.png">
                         <h4>Pudim</h4>
                         <h5>Apenas pudim</h5>
                         <h6>R$ 7,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleSobremesa(this)">
                         <img src="images/petit-gateau.jpeg" alt="petit-gateau">
                         <h4>Petit Gateau</h4>
                         <h5>O famoso bolo pequeno</h5>
                         <h6>R$ 13,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleSobremesa(this)">
                         <img src="images/torta.jpg" alt="torta">
                         <h4>Tortinha de limão</h4>
                         <h5>Para dias mais azedos</h5>
                         <h6>R$ 9,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleSobremesa(this)">
                         <img src="images/mousse.jpg" alt="mousse">
                         <h4>Mousse</h4>
                         <h5>Cocholate</h5>
                         <h6>R$ 6,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
-                    <div class="pick">
+                    <div class="pick" onclick="toggleSobremesa(this)">
                         <img src="images/pudim.png" alt="pudim.png">
                         <h4>Pudim</h4>
                         <h5>Apenas pudim</h5>
                         <h6>R$ 7,90</h6>
+                        <ion-icon name="checkmark-circle-outline" class="escondido"></ion-icon>
                     </div>
 
 
@@ -152,6 +173,7 @@
 
 
     </div>
-    <script></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>

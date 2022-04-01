@@ -13,7 +13,9 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100%
+    width: 100%;
+    z-index: 1;
+
    
 }
 .header {
@@ -93,6 +95,7 @@ h6 {
 .opcoes {
     display: flex;
     overflow-x: scroll;
+    padding-bottom: 12px;
 }
 .pick {
     width: 172px;
@@ -108,13 +111,15 @@ h6 {
 
     margin-left: 16px;
     padding-left: 12px;
+
+    position: relative;
 }
 .pick > img {
     border-radius: 4px;
     width: 144px;
     height: 87px;
     object-fit: cover;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 10px 10px -2px;
 }
 .footer-fixo {
     position: fixed;
@@ -151,6 +156,27 @@ p {
 
     color: #FFFFFF;
 }
-.categoria {
+.comida {
     margin-bottom: 24px;
+}
+.bebida {
+    margin-bottom: 24px;
+}
+.sobremesa {
+    margin-bottom: 24px;
+}
+.selecionado {
+    border: 6px solid #32B72F;
+}
+ion-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 20px;
+    background-color: #32B72F;
+    border-radius: 50px;
+    color: white;
+}
+.escondido {
+    display: none;
 }
