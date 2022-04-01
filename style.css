@@ -130,20 +130,26 @@ h6 {
 .footer {
     width: 100%;
     height: 92px;
-
+    position: relative;
     background-color: #FFFFFF;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-button {
+.desligado {
     width: 80%;
     height: 80%;
 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
     background: #CBCBCB;
-
+    border: 1px solid #CBCBCB;
     border-radius: 50px;
 }
 p {
@@ -176,7 +182,42 @@ ion-icon {
     background-color: #32B72F;
     border-radius: 50px;
     color: white;
+    display: none;
+    
+}
+.aceso {
+    background-color: #32B72F;
+
+    border: 1px solid #32b72f;
+    border-radius: 50px;
+
+    width: 80%;
+    height: 80%;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    z-index: 1;
+}
+.aceso p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+
+    color: #FFFFFF;
 }
 .escondido {
     display: none;
+}
+.selecionado ion-icon {
+    display: inline;
 }
