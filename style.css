@@ -8,9 +8,7 @@ body {
 * {
     box-sizing: border-box;
 }
-.main {
 
-}
 .header-fixo {
     position: fixed;
     top: 0px;
@@ -87,6 +85,10 @@ h6 {
 .container > :first-child {
     margin-top: 104px;
 }
+
+.container > :last-child {
+    margin-bottom: 130px;
+}
 .opcoes {
     display: flex;
     overflow-x: scroll;
@@ -111,6 +113,7 @@ h6 {
     width: 144px;
     height: 87px;
     object-fit: cover;
+    margin: 0px 10px 10px 0px;
 }
 .footer-fixo {
     position: fixed;
@@ -128,8 +131,8 @@ h6 {
     align-items: center;
 }
 button {
-    width: 364px;
-    height: 61px;
+    width: 80%;
+    height: 80%;
 
 
     background: #CBCBCB;
