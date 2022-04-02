@@ -43,7 +43,7 @@ function toggleComida (element) {
     else if (comidaEscolhida === "Macarronada") {
         custoPrato = 16.90;
     }
-    else if (comidaEscolhida === "Strong on off") {
+    else if (comidaEscolhida === "Strogonoff") {
         custoPrato = 15.90;
     }
     else if (comidaEscolhida === "Lasanha") {
