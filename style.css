@@ -9,6 +9,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .header-fixo {
     position: fixed;
     top: 0px;
@@ -31,9 +32,8 @@ body {
 h1 {
     font-weight: 400;
     font-size: 44px;
-    letter-spacing: -0.012em;
     
-    margin-left: 21px;
+    margin-left: 22px;
 
     color: #FFFFFF;
 }
@@ -43,7 +43,7 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     
-    margin-left: 21px;
+    margin-left: 22px;
 
 
     color: #FFFFFF;
@@ -103,7 +103,9 @@ h6 {
 
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+
     border-radius: 9px;
+    border: 4px solid white;
 
     display: flex;
     flex-direction: column;
@@ -117,10 +119,10 @@ h6 {
 }
 .pick > img {
     border-radius: 4px;
-    width: 144px;
+    width: 140px;
     height: 87px;
     object-fit: cover;
-    margin: 0px 0px 10px -2px;
+    margin: 0px 0px 10px 0px;
 }
 .footer-fixo {
     position: fixed;
@@ -173,16 +175,16 @@ p {
     margin-bottom: 24px;
 }
 .selecionado {
-    border: 6px solid #32B72F;
+    border: 4px solid #32B72F;
 }
 ion-icon {
     position: absolute;
     bottom: 10px;
     right: 5px;
     font-size: 20px;
-    background-color: #32B72F;
+    background-color: white;
     border-radius: 50px;
-    color: white;
+    color: #32B72F;
     display: none;
     
 }
