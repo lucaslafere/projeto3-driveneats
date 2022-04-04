@@ -142,13 +142,14 @@ function toggleSobremesa(element) {
 function enviarPedido(el) {
 
     let name = prompt("Nos diga seu nome :D")
+    let address = prompt("Qual o seu endereço?")
 
     custoTotal = custoPrato + custoBebida + custoSobremesa;
     const comidaEscolhida = document.querySelector(".comida .selecionado").querySelector("h4").innerHTML;
     const bebidaEscolhida = document.querySelector(".bebida .selecionado").querySelector("h4").innerHTML;
     const sobremesaEscolhida = document.querySelector(".sobremesa .selecionado").querySelector("h4").innerHTML;
 
-    let mensagem = `Olá, gostaria de fazer o pedido: \n - Prato: ${comidaEscolhida} \n - Bebida: ${bebidaEscolhida} \n - Sobremesa: ${sobremesaEscolhida} \n Total: R$ ${custoTotal.toFixed(2)} \n \n Nome: ${name}`
+    let mensagem = `Olá, gostaria de fazer o pedido: \n - Prato: ${comidaEscolhida} \n - Bebida: ${bebidaEscolhida} \n - Sobremesa: ${sobremesaEscolhida} \n Total: R$ ${custoTotal.toFixed(2)} \n \n Nome: ${name} \n Endereço: ${address}`
 
     window.open("https://wa.me/5521995313835?text=" + encodeURIComponent(mensagem));
 }
